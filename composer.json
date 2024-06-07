@@ -1,9 +1,10 @@
 {
-  "name": "googleads/google-ads-php",
-  "homepage": "https://github.com/googleads/google-ads-php",
-  "description": "Google Ads API client for PHP",
+  "name": "bluesabre/google-ads-php-74",
+  "homepage": "https://github.com/bluesabre/google-ads-php-74",
+  "description": "Google Ads API client for PHP 7.4",
+  "version": "21.1.0",
   "require": {
-    "php": ">=8.0",
+    "php": ">=7.4",
     "google/gax": "^1.19.1",
     "grpc/grpc": "^1.36.0",
     "google/protobuf": "^3.21.5",
