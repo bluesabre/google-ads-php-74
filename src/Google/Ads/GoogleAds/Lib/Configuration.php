@@ -28,7 +28,7 @@ class Configuration
      *
      * @param array $config an associative array of config settings
      */
-    public function __construct(private array $config)
+    public function __construct(array $config)
     {
     }
 

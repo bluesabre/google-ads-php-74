@@ -30,7 +30,7 @@ class GoogleAdsResponseMetadata
      *
      * @param array $metadata the metadata
      */
-    public function __construct(private array $metadata)
+    public function __construct(array $metadata)
     {
     }
 

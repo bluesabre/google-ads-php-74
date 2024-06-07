@@ -30,7 +30,7 @@ class GoogleAdsLoggingInterceptor extends Interceptor
      *
      * @param GoogleAdsCallLogger $callLogger the call logger for logging gRPC requests
      */
-    public function __construct(private GoogleAdsCallLogger $callLogger)
+    public function __construct(GoogleAdsCallLogger $callLogger)
     {
     }
 
