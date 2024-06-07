@@ -37,8 +37,8 @@ class GoogleAdsLoggingServerStreamingCall extends ForwardingServerStreamingCall
      */
     public function __construct(
         $innerCall,
-        private array $lastRequestData,
-        private GoogleAdsCallLogger $googleAdsCallLogger
+        array $lastRequestData,
+        GoogleAdsCallLogger $googleAdsCallLogger
     ) {
         parent::__construct($innerCall);
         if ($this->googleAdsCallLogger->isLoggingResponsesEnabled()) {

@@ -74,7 +74,7 @@ class ServerStreamingGoogleAdsExceptionMiddleware extends GoogleAdsMiddlewareAbs
              */
             public function __construct(
                 ServerStream $serverStream,
-                private StatusMetadataExtractor $statusMetadataExtractor
+                StatusMetadataExtractor $statusMetadataExtractor
             ) {
                 parent::__construct($serverStream);
             }

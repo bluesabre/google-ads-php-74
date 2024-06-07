@@ -37,7 +37,7 @@ class GoogleAdsException extends ApiException
      */
     public function __construct(
         ApiException $original,
-        private GoogleAdsFailure $googleAdsFailure,
+        GoogleAdsFailure $googleAdsFailure,
         array $optionalArgs = []
     ) {
         parent::__construct(

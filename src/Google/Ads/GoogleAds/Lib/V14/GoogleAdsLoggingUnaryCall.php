@@ -35,8 +35,8 @@ class GoogleAdsLoggingUnaryCall extends ForwardingUnaryCall
      */
     public function __construct(
         $innerCall,
-        private array $lastRequestData,
-        private GoogleAdsCallLogger $googleAdsCallLogger
+        array $lastRequestData,
+        GoogleAdsCallLogger $googleAdsCallLogger
     ) {
         parent::__construct($innerCall);
     }
