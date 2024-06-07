@@ -80,9 +80,9 @@ final class ConfigurationLoader
         }
 
         return new Configuration(parse_ini_file(
-            filename: $configIniFilePath,
-            process_sections: true,
-            scanner_mode: INI_SCANNER_TYPED
+            $configIniFilePath,
+            true,
+            INI_SCANNER_TYPED
         ));
     }
 
