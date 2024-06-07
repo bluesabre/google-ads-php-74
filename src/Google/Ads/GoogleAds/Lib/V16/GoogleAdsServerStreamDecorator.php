@@ -27,11 +27,14 @@ use Google\ApiCore\ServerStream;
  */
 class GoogleAdsServerStreamDecorator extends ServerStream
 {
+    protected $serverStream;
+
     /**
      * @param ServerStream $serverStream the ServerStream to wrap
      */
     public function __construct(ServerStream $serverStream)
     {
+        $this->serverStream = $serverStream;
     }
 
     /**
