@@ -68,7 +68,7 @@ final class ConfigurationLoader
                         )
                     );
                 }
-            } catch (UnexpectedValueException) {
+            } catch (UnexpectedValueException $e) {
                 throw new InvalidArgumentException(
                     sprintf(
                         "Config file not found as specified: '%s'. Home "
